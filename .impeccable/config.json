@@ -1,0 +1,44 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-10T00:45:26.280Z",
+        "reason": "Claude: static-analysis false positive; full-bleed sections pad via inner .wrap and plates have 20-72px padding (verified in 1440/390 captures)"
+      },
+      {
+        "rule": "nested-cards",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-10T00:45:26.475Z",
+        "reason": "Claude: plates-on-plates is the chosen Equipment Data Plate world (user picked it on the decision page); terminals/serial strip are diagram parts, not cards"
+      },
+      {
+        "rule": "repeating-stripes-gradient",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-10T00:45:26.691Z",
+        "reason": "Claude: louvered condenser-cabinet ground is the world's material, per direction contract"
+      },
+      {
+        "rule": "all-caps-body",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-10T00:45:26.911Z",
+        "reason": "Claude: only 31-char plate label 'Field service management system' is uppercase; nameplate convention"
+      }
+    ]
+  }
+}

@@ -1,0 +1,533 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-10T01:02:41+00:00",
+  "title": "Design System: RouteCool",
+  "extensions": {
+    "colorMeta": {
+      "anodized-blue": {
+        "role": "primary",
+        "displayName": "Anodized Blue",
+        "canonical": "#0ea5e9",
+        "oklch": "oklch(68.5% 0.148 237)",
+        "tonalRamp": [
+          "#000b2b",
+          "#00274e",
+          "#004879",
+          "#006ba5",
+          "#0090d2",
+          "#4db6f2",
+          "#81d9ff",
+          "#acf9ff"
+        ]
+      },
+      "anodized-blue-hover": {
+        "role": "primary",
+        "displayName": "Anodized Blue Bright",
+        "canonical": "#38bdf8",
+        "oklch": "oklch(75.4% 0.139 233)",
+        "tonalRamp": [
+          "#000d27",
+          "#00294a",
+          "#004a73",
+          "#006d9f",
+          "#0092ca",
+          "#4db7eb",
+          "#81daff",
+          "#acfaff"
+        ]
+      },
+      "anodized-blue-edge": {
+        "role": "primary",
+        "displayName": "Anodized Blue Edge",
+        "canonical": "#0284c7",
+        "oklch": "oklch(58.8% 0.139 242)",
+        "tonalRamp": [
+          "#000a2a",
+          "#00264e",
+          "#004778",
+          "#0069a4",
+          "#218ed0",
+          "#5eb4f1",
+          "#8cd7ff",
+          "#b5f7ff"
+        ]
+      },
+      "anodized-blue-ink": {
+        "role": "primary",
+        "displayName": "Anodized Blue Ink",
+        "canonical": "#075985",
+        "oklch": "oklch(44.3% 0.100 241)",
+        "tonalRamp": [
+          "#000c21",
+          "#002742",
+          "#0e4769",
+          "#2b6992",
+          "#4a8dbc",
+          "#77b2dd",
+          "#a0d5fc",
+          "#c6f5ff"
+        ]
+      },
+      "caution-orange": {
+        "role": "secondary",
+        "displayName": "Caution Orange",
+        "canonical": "#f26a1b",
+        "oklch": "oklch(68.2% 0.186 45)",
+        "tonalRamp": [
+          "#2a0000",
+          "#500000",
+          "#7d1600",
+          "#ac3500",
+          "#db5700",
+          "#fd854b",
+          "#ffae7c",
+          "#ffd3a6"
+        ]
+      },
+      "plate-aluminum": {
+        "role": "neutral",
+        "displayName": "Plate Aluminum",
+        "canonical": "#c9ccd1",
+        "oklch": "oklch(84.4% 0.008 261)",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#232427",
+          "#404246",
+          "#616367",
+          "#84868b",
+          "#a8abaf",
+          "#cbced2",
+          "#eceef2"
+        ]
+      },
+      "plate-aluminum-hi": {
+        "role": "neutral",
+        "displayName": "Plate Aluminum Hi",
+        "canonical": "#dde0e4",
+        "oklch": "oklch(90.6% 0.006 255)",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#232426",
+          "#414245",
+          "#616367",
+          "#84868a",
+          "#a8abae",
+          "#ccced1",
+          "#eceff1"
+        ]
+      },
+      "plate-aluminum-lo": {
+        "role": "neutral",
+        "displayName": "Plate Aluminum Lo",
+        "canonical": "#aeb2b9",
+        "oklch": "oklch(76.3% 0.011 262)",
+        "tonalRamp": [
+          "#0a0b0e",
+          "#222428",
+          "#404247",
+          "#606369",
+          "#83868d",
+          "#a7abb1",
+          "#cbced3",
+          "#eceff4"
+        ]
+      },
+      "plate-edge": {
+        "role": "neutral",
+        "displayName": "Plate Edge",
+        "canonical": "#8d929a",
+        "oklch": "oklch(65.8% 0.013 260)",
+        "tonalRamp": [
+          "#090b0f",
+          "#212429",
+          "#3f4348",
+          "#5f636a",
+          "#82868e",
+          "#a7abb2",
+          "#caced5",
+          "#ebeff5"
+        ]
+      },
+      "shop-ground": {
+        "role": "neutral",
+        "displayName": "Shop Ground",
+        "canonical": "#e7e9ec",
+        "oklch": "oklch(93.3% 0.005 258)",
+        "tonalRamp": [
+          "#0a0b0c",
+          "#232426",
+          "#414244",
+          "#626366",
+          "#848689",
+          "#a9abad",
+          "#ccced0",
+          "#edeef1"
+        ]
+      },
+      "cabinet-gray": {
+        "role": "neutral",
+        "displayName": "Cabinet Gray",
+        "canonical": "#d5d8dc",
+        "oklch": "oklch(88.1% 0.006 255)",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#232426",
+          "#414245",
+          "#616367",
+          "#84868a",
+          "#a8abae",
+          "#ccced1",
+          "#eceff1"
+        ]
+      },
+      "etch-ink": {
+        "role": "neutral",
+        "displayName": "Etch Ink",
+        "canonical": "#111214",
+        "oklch": "oklch(18.2% 0.004 264)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#232425",
+          "#414244",
+          "#626366",
+          "#858689",
+          "#a9abad",
+          "#ccced0",
+          "#edeef0"
+        ]
+      },
+      "etch-ink-2": {
+        "role": "neutral",
+        "displayName": "Etch Ink 2",
+        "canonical": "#3a3d43",
+        "oklch": "oklch(35.9% 0.011 264)",
+        "tonalRamp": [
+          "#0a0b0e",
+          "#222428",
+          "#404247",
+          "#606369",
+          "#83868d",
+          "#a8abb1",
+          "#cbced4",
+          "#eceef4"
+        ]
+      },
+      "etch-ink-3": {
+        "role": "neutral",
+        "displayName": "Etch Ink 3",
+        "canonical": "#555960",
+        "oklch": "oklch(46.3% 0.012 262)",
+        "tonalRamp": [
+          "#090b0e",
+          "#222428",
+          "#3f4248",
+          "#60636a",
+          "#82868e",
+          "#a7abb2",
+          "#caced4",
+          "#ebeff4"
+        ]
+      },
+      "label-white": {
+        "role": "neutral",
+        "displayName": "Label White",
+        "canonical": "#f7f8f9",
+        "oklch": "oklch(97.9% 0.002 248)",
+        "tonalRamp": [
+          "#0b0b0c",
+          "#242424",
+          "#424243",
+          "#626364",
+          "#858687",
+          "#aaabac",
+          "#cdcece",
+          "#eeeeef"
+        ]
+      },
+      "night-text": {
+        "role": "neutral",
+        "displayName": "Night Text",
+        "canonical": "#c4c8ce",
+        "oklch": "oklch(83.1% 0.009 258)",
+        "tonalRamp": [
+          "#0a0b0e",
+          "#222427",
+          "#404346",
+          "#606368",
+          "#83868c",
+          "#a8abb0",
+          "#cbced3",
+          "#eceff3"
+        ]
+      },
+      "night-caption": {
+        "role": "neutral",
+        "displayName": "Night Caption",
+        "canonical": "#a9aeb5",
+        "oklch": "oklch(74.9% 0.012 257)",
+        "tonalRamp": [
+          "#090b0e",
+          "#222428",
+          "#3f4347",
+          "#5f6469",
+          "#82878d",
+          "#a7abb1",
+          "#caced4",
+          "#ebeff4"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero nameplate headline only; etched condensed caps."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headlines; the closing plate scales it up."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Sub-headings within a section."
+      },
+      "subtitle": {
+        "displayName": "Subtitle",
+        "purpose": "Reason rows and list-item heads, sentence case."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text and ledes."
+      },
+      "plate-header": {
+        "displayName": "Plate Header",
+        "purpose": "Caution-label heads, spec-sheet group titles, wiring-diagram title."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Printed spec-table field names, uppercase."
+      },
+      "value": {
+        "displayName": "Value",
+        "purpose": "Stamped spec values in Martian Mono, tabular numerals."
+      },
+      "mono-label": {
+        "displayName": "Mono Label",
+        "purpose": "Figure numbers and plate band text, uppercase."
+      },
+      "rate-numeral": {
+        "displayName": "Rate Numeral",
+        "purpose": "The price on the rating plate only."
+      }
+    },
+    "shadows": [
+      {
+        "name": "mounted-plate",
+        "value": "0 18px 40px -22px rgb(17 18 20 / 0.5), 0 2px 4px rgb(17 18 20 / 0.1)",
+        "purpose": "Nameplate, rating and closing plates lifted off the cabinet."
+      },
+      {
+        "name": "bezel",
+        "value": "0 18px 40px -24px rgb(17 18 20 / 0.6)",
+        "purpose": "Aluminum bezel around app screenshots."
+      },
+      {
+        "name": "header-strip",
+        "value": "0 6px 14px -10px rgb(17 18 20 / 0.45)",
+        "purpose": "Sticky header strip over scrolling content."
+      },
+      {
+        "name": "action-plate",
+        "value": "0 3px 8px -3px rgb(17 18 20 / 0.45)",
+        "purpose": "Action plate at rest."
+      },
+      {
+        "name": "action-plate-pressed",
+        "value": "0 1px 2px rgb(17 18 20 / 0.35)",
+        "purpose": "Action plate while pressed (with 2px translateY)."
+      },
+      {
+        "name": "caution-label",
+        "value": "0 4px 10px -6px rgb(17 18 20 / 0.5)",
+        "purpose": "Caution label applied onto a plate."
+      },
+      {
+        "name": "tag-plate",
+        "value": "0 0 0 1.5px #000, 0 0 0 4px #8d929a, 0 20px 40px -22px rgb(17 18 20 / 0.7)",
+        "purpose": "Dark tag plate with aluminum ring edge."
+      }
+    ],
+    "motion": [
+      {
+        "name": "stamp-punch",
+        "value": "260ms cubic-bezier(0.16, 1, 0.3, 1), 28ms per-letter stagger",
+        "purpose": "Letters punched into the serial strip as the visitor types; removed under reduced motion."
+      },
+      {
+        "name": "plate-press",
+        "value": "translateY(2px) over 90ms ease-out",
+        "purpose": "Action plate press on :active."
+      },
+      {
+        "name": "state-change",
+        "value": "160ms ease-out",
+        "purpose": "Color, border and gap changes on hover."
+      },
+      {
+        "name": "input-state",
+        "value": "140ms ease-out",
+        "purpose": "Stamp input border and fill changes."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "callouts-legend",
+        "value": "1080px"
+      },
+      {
+        "name": "stack",
+        "value": "960px"
+      },
+      {
+        "name": "compact",
+        "value": "560px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Anodized Action Plate",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The only action: anodized-blue plate with ink lettering that presses 2px on click.",
+      "html": "<a class=\"ds-anod\" href=\"#\"><svg class=\"ds-ico\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"1.5\"/><path d=\"m3.5 6 8.5 7 8.5-7\"/></svg><span>Email <b>demo@routecool.com</b></span></a>",
+      "css": ":host{--alu:#c9ccd1;--alu-hi:#dde0e4;--alu-lo:#aeb2b9;--alu-edge:#8d929a;--ink:#111214;--ink-2:#3a3d43;--ink-3:#555960;--orange:#f26a1b;--anod:#0ea5e9;--anod-hover:#38bdf8;--anod-lo:#0284c7;--anod-ink:#075985;--white:#f7f8f9;--display:'Archivo','Arial Narrow',sans-serif;--mono:'Martian Mono',ui-monospace,monospace;--line:1.5px;} .ds-ico{width:1.15em;height:1.15em;flex:none;fill:none;stroke:currentColor;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round;} .ds-anod{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 22px;background:var(--anod);color:var(--ink);font-family:var(--display);font-weight:700;font-size:1.0625rem;letter-spacing:0.005em;text-decoration:none;border-radius:4px;border:var(--line) solid var(--anod-lo);box-shadow:0 3px 8px -3px rgb(17 18 20 / 0.45);transition:background-color 160ms ease-out,box-shadow 160ms ease-out,transform 90ms ease-out;cursor:pointer;} .ds-anod b{font-weight:800;} .ds-anod:hover{background-color:var(--anod-hover);} .ds-anod:active{transform:translateY(2px);box-shadow:0 1px 2px rgb(17 18 20 / 0.35);} .ds-anod:focus-visible{outline:3px solid var(--anod-ink);outline-offset:3px;} "
+    },
+    {
+      "name": "Small Action Plate",
+      "kind": "button",
+      "refersTo": "button-primary-sm",
+      "description": "Compact action plate for the header strip.",
+      "html": "<a class=\"ds-anod ds-anod--sm\" href=\"#\"><svg class=\"ds-ico\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"1.5\"/><path d=\"m3.5 6 8.5 7 8.5-7\"/></svg><span>Email for a demo</span></a>",
+      "css": ":host{--alu:#c9ccd1;--alu-hi:#dde0e4;--alu-lo:#aeb2b9;--alu-edge:#8d929a;--ink:#111214;--ink-2:#3a3d43;--ink-3:#555960;--orange:#f26a1b;--anod:#0ea5e9;--anod-hover:#38bdf8;--anod-lo:#0284c7;--anod-ink:#075985;--white:#f7f8f9;--display:'Archivo','Arial Narrow',sans-serif;--mono:'Martian Mono',ui-monospace,monospace;--line:1.5px;} .ds-ico{width:1.15em;height:1.15em;flex:none;fill:none;stroke:currentColor;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round;} .ds-anod{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 22px;background:var(--anod);color:var(--ink);font-family:var(--display);font-weight:700;font-size:1.0625rem;letter-spacing:0.005em;text-decoration:none;border-radius:4px;border:var(--line) solid var(--anod-lo);box-shadow:0 3px 8px -3px rgb(17 18 20 / 0.45);transition:background-color 160ms ease-out,box-shadow 160ms ease-out,transform 90ms ease-out;cursor:pointer;} .ds-anod b{font-weight:800;} .ds-anod:hover{background-color:var(--anod-hover);} .ds-anod:active{transform:translateY(2px);box-shadow:0 1px 2px rgb(17 18 20 / 0.35);} .ds-anod:focus-visible{outline:3px solid var(--anod-ink);outline-offset:3px;} .ds-anod--sm{padding:9px 14px;font-size:0.9375rem;} "
+    },
+    {
+      "name": "Text Link",
+      "kind": "button",
+      "description": "Secondary way out: bold blue-ink link with a trailing arrow whose gap opens on hover.",
+      "html": "<a class=\"ds-textlink\" href=\"#\">See Kappa Air&#39;s own sign-in page <svg class=\"ds-ico\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 12h15M13 6l6 6-6 6\"/></svg></a>",
+      "css": ":host{--alu:#c9ccd1;--alu-hi:#dde0e4;--alu-lo:#aeb2b9;--alu-edge:#8d929a;--ink:#111214;--ink-2:#3a3d43;--ink-3:#555960;--orange:#f26a1b;--anod:#0ea5e9;--anod-hover:#38bdf8;--anod-lo:#0284c7;--anod-ink:#075985;--white:#f7f8f9;--display:'Archivo','Arial Narrow',sans-serif;--mono:'Martian Mono',ui-monospace,monospace;--line:1.5px;} .ds-ico{width:1.15em;height:1.15em;flex:none;fill:none;stroke:currentColor;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round;} .ds-textlink{display:inline-flex;align-items:center;gap:8px;font-family:var(--display);font-weight:700;color:var(--anod-ink);text-decoration:underline;text-decoration-color:var(--anod-lo);text-decoration-thickness:1.5px;text-underline-offset:0.2em;transition:gap 160ms ease-out;} .ds-textlink:hover{gap:12px;} .ds-textlink:focus-visible{outline:3px solid var(--anod-ink);outline-offset:3px;border-radius:2px;}"
+    },
+    {
+      "name": "Stamp Input",
+      "kind": "input",
+      "refersTo": "stamp-input",
+      "description": "Field where the visitor types the name that gets stamped into the serial strip.",
+      "html": "<input class=\"ds-stamp\" type=\"text\" placeholder=\"Type your company name\">",
+      "css": ":host{--alu:#c9ccd1;--alu-hi:#dde0e4;--alu-lo:#aeb2b9;--alu-edge:#8d929a;--ink:#111214;--ink-2:#3a3d43;--ink-3:#555960;--orange:#f26a1b;--anod:#0ea5e9;--anod-hover:#38bdf8;--anod-lo:#0284c7;--anod-ink:#075985;--white:#f7f8f9;--display:'Archivo','Arial Narrow',sans-serif;--mono:'Martian Mono',ui-monospace,monospace;--line:1.5px;} .ds-stamp{width:100%;max-width:360px;font:500 0.9375rem var(--display);color:var(--ink);padding:9px 12px;background:rgb(247 248 249 / 0.7);border:var(--line) solid var(--ink-3);border-radius:3px;transition:border-color 140ms ease-out,background-color 140ms ease-out;} .ds-stamp::placeholder{color:#5d6168;} .ds-stamp:hover{border-color:var(--ink);} .ds-stamp:focus{outline:2px solid var(--anod-ink);outline-offset:1px;border-color:var(--anod-ink);background:#fff;}"
+    },
+    {
+      "name": "Header Strip",
+      "kind": "nav",
+      "refersTo": "header-strip",
+      "description": "Sticky aluminum strip: mark, links, small action plate.",
+      "html": "<header class=\"ds-strip\"><a class=\"ds-mark\" href=\"#\"><svg width=\"28\" height=\"28\" viewBox=\"0 0 32 32\" aria-hidden=\"true\"><rect width=\"32\" height=\"32\" rx=\"7\" fill=\"#0ea5e9\"/><g transform=\"translate(5,5) scale(0.917)\"><path fill=\"none\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" d=\"M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7\"/></g></svg><span>RouteCool</span></a><nav><a href=\"#\">Your own copy</a><a href=\"#\">The app</a><a href=\"#\">Pricing</a></nav><a class=\"ds-anod ds-anod--sm\" href=\"#\"><svg class=\"ds-ico\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><rect x=\"3\" y=\"5\" width=\"18\" height=\"14\" rx=\"1.5\"/><path d=\"m3.5 6 8.5 7 8.5-7\"/></svg><span>Email for a demo</span></a></header>",
+      "css": ":host{--alu:#c9ccd1;--alu-hi:#dde0e4;--alu-lo:#aeb2b9;--alu-edge:#8d929a;--ink:#111214;--ink-2:#3a3d43;--ink-3:#555960;--orange:#f26a1b;--anod:#0ea5e9;--anod-hover:#38bdf8;--anod-lo:#0284c7;--anod-ink:#075985;--white:#f7f8f9;--display:'Archivo','Arial Narrow',sans-serif;--mono:'Martian Mono',ui-monospace,monospace;--line:1.5px;} .ds-ico{width:1.15em;height:1.15em;flex:none;fill:none;stroke:currentColor;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round;} .ds-anod{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 22px;background:var(--anod);color:var(--ink);font-family:var(--display);font-weight:700;font-size:1.0625rem;letter-spacing:0.005em;text-decoration:none;border-radius:4px;border:var(--line) solid var(--anod-lo);box-shadow:0 3px 8px -3px rgb(17 18 20 / 0.45);transition:background-color 160ms ease-out,box-shadow 160ms ease-out,transform 90ms ease-out;cursor:pointer;} .ds-anod b{font-weight:800;} .ds-anod:hover{background-color:var(--anod-hover);} .ds-anod:active{transform:translateY(2px);box-shadow:0 1px 2px rgb(17 18 20 / 0.35);} .ds-anod:focus-visible{outline:3px solid var(--anod-ink);outline-offset:3px;} .ds-anod--sm{padding:9px 14px;font-size:0.9375rem;} .ds-strip{display:flex;align-items:center;gap:28px;padding:10px 24px;background:var(--alu);border-bottom:var(--line) solid var(--alu-edge);box-shadow:0 6px 14px -10px rgb(17 18 20 / 0.45);font-family:var(--display);} .ds-mark{display:inline-flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);font-weight:800;font-size:1.25rem;letter-spacing:-0.01em;font-variation-settings:'wdth' 88;} .ds-strip nav{display:flex;gap:22px;margin-left:auto;} .ds-strip nav a{text-decoration:none;font-weight:600;font-size:0.9375rem;color:var(--ink-2);padding:6px 0;border-bottom:2px solid transparent;transition:color 160ms ease-out,border-color 160ms ease-out;} .ds-strip nav a:hover{color:var(--ink);border-bottom-color:var(--ink);} .ds-strip a:focus-visible{outline:3px solid var(--anod-ink);outline-offset:3px;}"
+    },
+    {
+      "name": "Data Plate",
+      "kind": "card",
+      "refersTo": "plate",
+      "description": "Flat printed-aluminum plate: 4px corners, inset printed rule, four rivets, band header, spec table.",
+      "html": "<div class=\"ds-plate\"><span class=\"ds-rivet ds-tl\"></span><span class=\"ds-rivet ds-tr\"></span><span class=\"ds-rivet ds-bl\"></span><span class=\"ds-rivet ds-br\"></span><div class=\"ds-band\"><span class=\"ds-band__mark\">RATING</span><span class=\"ds-band__small\">One company · one RouteCool</span></div><dl class=\"ds-spec\"><div><dt>Model no.</dt><dd>RC-FSM</dd></div><div><dt>Rated</dt><dd><b>5</b> users</dd></div><div><dt>Rate</dt><dd><b>$199</b> / mo</dd></div></dl></div>",
+      "css": ":host{--alu:#c9ccd1;--alu-hi:#dde0e4;--alu-lo:#aeb2b9;--alu-edge:#8d929a;--ink:#111214;--ink-2:#3a3d43;--ink-3:#555960;--orange:#f26a1b;--anod:#0ea5e9;--anod-hover:#38bdf8;--anod-lo:#0284c7;--anod-ink:#075985;--white:#f7f8f9;--display:'Archivo','Arial Narrow',sans-serif;--mono:'Martian Mono',ui-monospace,monospace;--line:1.5px;} .ds-rivet{position:absolute;width:14px;height:14px;border-radius:50%;background:var(--alu-hi);border:3px solid var(--alu-edge);} .ds-tl{top:16px;left:16px;} .ds-tr{top:16px;right:16px;} .ds-bl{bottom:16px;left:16px;} .ds-br{bottom:16px;right:16px;} .ds-plate{position:relative;max-width:520px;padding:40px 44px;background:var(--alu);color:var(--ink);font-family:var(--display);border:var(--line) solid var(--alu-edge);border-radius:4px;box-shadow:0 18px 40px -22px rgb(17 18 20 / 0.5),0 2px 4px rgb(17 18 20 / 0.1);} .ds-plate::after{content:'';position:absolute;inset:7px;pointer-events:none;border:var(--line) solid rgb(17 18 20 / 0.5);border-radius:2px;} .ds-band{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-bottom:14px;margin-bottom:18px;border-bottom:var(--line) solid var(--ink);} .ds-band__mark{font-weight:900;font-size:1.125rem;letter-spacing:0.22em;font-variation-settings:'wdth' 112;} .ds-band__small{font-family:var(--mono);font-size:0.75rem;letter-spacing:0.08em;text-transform:uppercase;font-weight:500;color:var(--ink-2);} .ds-spec{margin:0;border-top:var(--line) solid var(--ink);} .ds-spec>div{display:grid;grid-template-columns:8.5em 1fr;gap:16px;align-items:baseline;padding:8px 0;border-bottom:1px solid rgb(17 18 20 / 0.55);} .ds-spec dt{font-size:0.75rem;letter-spacing:0.1em;text-transform:uppercase;font-weight:700;color:var(--ink-2);} .ds-spec dd{margin:0;font-family:var(--mono);font-size:0.875rem;font-weight:500;font-variant-numeric:tabular-nums;font-variation-settings:'wdth' 90;} .ds-spec dd b{font-weight:700;font-size:1.25em;}"
+    },
+    {
+      "name": "Caution Label",
+      "kind": "custom",
+      "refersTo": "caution-head",
+      "description": "Two-panel safety label for hard truths: orange signal header, white message, 2px ink outline.",
+      "html": "<div class=\"ds-caution\" role=\"note\"><p class=\"ds-caution__head\"><svg class=\"ds-ico ds-ico--warn\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 3.5 22 20.5H2z\"/><path d=\"M12 10v5\"/><path d=\"M12 17.6v.01\"/></svg>Caution</p><p class=\"ds-caution__msg\">No shared database. No storage markup.</p></div>",
+      "css": ":host{--alu:#c9ccd1;--alu-hi:#dde0e4;--alu-lo:#aeb2b9;--alu-edge:#8d929a;--ink:#111214;--ink-2:#3a3d43;--ink-3:#555960;--orange:#f26a1b;--anod:#0ea5e9;--anod-hover:#38bdf8;--anod-lo:#0284c7;--anod-ink:#075985;--white:#f7f8f9;--display:'Archivo','Arial Narrow',sans-serif;--mono:'Martian Mono',ui-monospace,monospace;--line:1.5px;} .ds-ico{width:1.15em;height:1.15em;flex:none;fill:none;stroke:currentColor;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round;} .ds-caution{max-width:400px;background:var(--white);color:var(--ink);font-family:var(--display);border:2px solid var(--ink);border-radius:4px;overflow:hidden;box-shadow:0 4px 10px -6px rgb(17 18 20 / 0.5);} .ds-caution p{margin:0;} .ds-caution__head{display:flex;align-items:center;justify-content:center;gap:10px;padding:8px 16px;background:var(--orange);border-bottom:2px solid var(--ink);font-weight:900;text-transform:uppercase;letter-spacing:0.16em;font-size:0.875rem;font-variation-settings:'wdth' 110;} .ds-ico--warn{width:22px;height:22px;stroke-width:2.25;} .ds-caution__msg{padding:12px 18px;font-weight:650;font-size:1rem;line-height:1.35;text-align:center;}"
+    },
+    {
+      "name": "Serial Strip",
+      "kind": "custom",
+      "refersTo": "serial-strip",
+      "description": "Recessed strip holding the visitor's stamped domain in Martian Mono; letters punch in as typed (hover replays).",
+      "html": "<div class=\"ds-serial\"><span class=\"ds-punch\">k</span><span class=\"ds-punch\" style=\"animation-delay:28ms\">a</span><span class=\"ds-punch\" style=\"animation-delay:56ms\">p</span><span class=\"ds-punch\" style=\"animation-delay:84ms\">p</span><span class=\"ds-punch\" style=\"animation-delay:112ms\">a</span><span class=\"ds-tld\">.routecool.com</span></div>",
+      "css": ":host{--alu:#c9ccd1;--alu-hi:#dde0e4;--alu-lo:#aeb2b9;--alu-edge:#8d929a;--ink:#111214;--ink-2:#3a3d43;--ink-3:#555960;--orange:#f26a1b;--anod:#0ea5e9;--anod-hover:#38bdf8;--anod-lo:#0284c7;--anod-ink:#075985;--white:#f7f8f9;--display:'Archivo','Arial Narrow',sans-serif;--mono:'Martian Mono',ui-monospace,monospace;--line:1.5px;} .ds-serial{display:inline-block;font-family:var(--mono);font-weight:700;font-variation-settings:'wdth' 80;font-size:1.0625rem;letter-spacing:0.01em;padding:10px 12px;background:var(--alu-lo);border-radius:3px;border:var(--line) solid var(--alu-edge);color:var(--ink);white-space:nowrap;} .ds-tld{color:var(--ink-2);} .ds-punch{display:inline-block;animation:ds-punch 260ms cubic-bezier(0.16,1,0.3,1) both;} .ds-serial:hover .ds-punch{animation-name:ds-punch2;} @keyframes ds-punch{0%{transform:translateY(-3px) scale(1.35);filter:blur(1.5px);}45%{transform:translateY(1px) scale(0.94);filter:blur(0);}100%{transform:none;}} @keyframes ds-punch2{0%{transform:translateY(-3px) scale(1.35);filter:blur(1.5px);}45%{transform:translateY(1px) scale(0.94);filter:blur(0);}100%{transform:none;}} @media (prefers-reduced-motion:reduce){.ds-punch{animation:none;}}"
+    },
+    {
+      "name": "Wiring Terminal",
+      "kind": "custom",
+      "refersTo": "terminal",
+      "description": "White terminal block with circled mono code, joined to the next by a 3px anodized-blue run.",
+      "html": "<div class=\"ds-chain\"><div class=\"ds-term ds-term--domain\"><span class=\"ds-term__code\">L1</span><span class=\"ds-term__name\">Your domain</span><span class=\"ds-term__val\">yourcompany.routecool.com</span></div><div class=\"ds-term\"><span class=\"ds-term__code\">DB</span><span class=\"ds-term__name\">Your database</span><span class=\"ds-term__val\">PostgreSQL · its own backups</span></div></div>",
+      "css": ":host{--alu:#c9ccd1;--alu-hi:#dde0e4;--alu-lo:#aeb2b9;--alu-edge:#8d929a;--ink:#111214;--ink-2:#3a3d43;--ink-3:#555960;--orange:#f26a1b;--anod:#0ea5e9;--anod-hover:#38bdf8;--anod-lo:#0284c7;--anod-ink:#075985;--white:#f7f8f9;--display:'Archivo','Arial Narrow',sans-serif;--mono:'Martian Mono',ui-monospace,monospace;--line:1.5px;} .ds-chain{display:grid;gap:30px;max-width:380px;padding:24px;background:var(--alu);border:var(--line) solid var(--alu-edge);border-radius:8px;font-family:var(--display);color:var(--ink);} .ds-term{position:relative;display:grid;grid-template-columns:44px 1fr;column-gap:14px;row-gap:2px;background:var(--white);border:var(--line) solid var(--ink);border-radius:4px;padding:12px 14px;} .ds-term__code{grid-row:span 2;align-self:center;display:grid;place-items:center;width:44px;height:44px;border:var(--line) solid var(--ink);border-radius:50%;font-family:var(--mono);font-weight:700;font-size:0.8125rem;} .ds-term__name{font-weight:750;font-size:1.0625rem;line-height:1.2;} .ds-term__val{font-family:var(--mono);font-size:0.75rem;color:var(--ink-2);} .ds-term--domain{border:3px solid var(--anod-lo);} .ds-term--domain .ds-term__val{color:var(--anod-ink);font-weight:600;} .ds-term--domain::after{content:'';position:absolute;left:34px;top:100%;width:3px;height:33px;background:var(--anod);}"
+    },
+    {
+      "name": "Dark Tag Plate",
+      "kind": "card",
+      "refersTo": "tagplate",
+      "description": "Ink plate with aluminum ring edge for an installed customer: condensed name, meta, blue mono serial.",
+      "html": "<div class=\"ds-tag\"><span class=\"ds-rv ds-rv--l\"></span><span class=\"ds-rv ds-rv--r\"></span><p class=\"ds-tag__name\">Kappa Air</p><p class=\"ds-tag__meta\">Phoenix-area HVAC</p><p class=\"ds-tag__serial\"><span>Installed</span>kappaair.routecool.com</p></div>",
+      "css": ":host{--alu:#c9ccd1;--alu-hi:#dde0e4;--alu-lo:#aeb2b9;--alu-edge:#8d929a;--ink:#111214;--ink-2:#3a3d43;--ink-3:#555960;--orange:#f26a1b;--anod:#0ea5e9;--anod-hover:#38bdf8;--anod-lo:#0284c7;--anod-ink:#075985;--white:#f7f8f9;--display:'Archivo','Arial Narrow',sans-serif;--mono:'Martian Mono',ui-monospace,monospace;--line:1.5px;} .ds-tag{position:relative;max-width:420px;background:var(--ink);color:var(--white);font-family:var(--display);border-radius:8px;padding:34px 40px 30px;box-shadow:0 0 0 1.5px #000,0 0 0 4px var(--alu-edge),0 20px 40px -22px rgb(17 18 20 / 0.7);} .ds-tag p{margin:0;} .ds-rv{position:absolute;top:50%;margin-top:-5px;width:10px;height:10px;border-radius:50%;background:#8d929a;border:3px solid #3a3d43;} .ds-rv--l{left:12px;} .ds-rv--r{right:12px;} .ds-tag__name{font-weight:900;text-transform:uppercase;font-variation-settings:'wdth' 70;font-size:4rem;line-height:0.9;} .ds-tag__meta{margin-top:10px;font-weight:600;color:#c4c8ce;} .ds-tag__serial{margin-top:22px;padding-top:14px;border-top:1px solid #3a3d43;font-family:var(--mono);font-size:0.875rem;color:var(--anod);} .ds-tag__serial span{margin-right:10px;font-family:var(--display);font-weight:700;font-size:0.6875rem;letter-spacing:0.12em;text-transform:uppercase;color:#a9aeb5;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Equipment Data Plate",
+    "overview": "RouteCool presents itself the way a condenser presents its identity: on a flat printed-aluminum plate riveted to a louvered cabinet, with black condensed caps for the name, a hairline spec table of MODEL / SERIAL / RATED, and stamped monospace values. Each company gets one unit with one serial, and the visual system holds that idea at every scale: plates carry the facts, the visitor's own domain is the serial, and one anodized-blue plate is the action.\n\nThe plates are printed, not machined. They are flat aluminum gray with a 4px corner, an inset printed border rule, and flat two-tone rivets. They have no brushing, emboss, bevel or texture. The only patterned surface is the cabinet ground behind the hero and rate plates: thin horizontal louvers. Depth comes from a soft drop shadow that lifts a plate off the cabinet. Nothing glows and nothing is glass.\n\nHard truths go on caution labels: an orange signal header with a warning glyph over a white message panel, both outlined in ink. Motion follows one grammar. Letters punch into the serial as they're typed, the primary plate presses down 2px when clicked, and everything else stays still.",
+    "keyCharacteristics": [
+      "Flat printed-aluminum plates (4px corners) with an inset ink rule 7px in and riveted corners.",
+      "One action color: anodized sky blue with ink lettering, matching the favicon.",
+      "Safety-orange is reserved for caution-label headers.",
+      "Printed Archivo caps for labels and names; stamped Martian Mono for values.",
+      "Extra-condensed etched display caps (Archivo width 62-72).",
+      "Motion is a stamp: short press-in, letter by letter; nothing else animates."
+    ],
+    "rules": [
+      {
+        "name": "The One Blue Rule",
+        "body": "Anodized blue is the only action color, and every action plate is filled with it and lettered in ink. A second action color, a blue gradient, or white-on-blue lettering breaks the plate.",
+        "section": "colors"
+      },
+      {
+        "name": "The Orange Means Caution Rule",
+        "body": "Safety-orange appears only as the header panel of a caution label. It is never a button, highlight, or decoration.",
+        "section": "colors"
+      },
+      {
+        "name": "The Printed Label, Stamped Value Rule",
+        "body": "A field name is printed in Archivo caps. Its value is stamped in Martian Mono. Never set both in the same face.",
+        "section": "typography"
+      },
+      {
+        "name": "The Width Axis Rule",
+        "body": "Hierarchy comes from Archivo's width and weight. Display text is condensed (62-72), body is normal (100), and spaced plate headers are expanded (108-112). Don't add a third family.",
+        "section": "typography"
+      },
+      {
+        "name": "The Printed, Not Machined Rule",
+        "body": "A plate's surface is one flat color. Its detail comes from printed rules and rivets. Brushing, emboss, bevel and metallic gradients are not part of this world.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do fill every primary action with anodized blue and ink lettering, and press it 2px on active.",
+      "Do mount content plates on a 1.5px plate-edge border with the printed inset rule 7px in, and rivet the corners.",
+      "Do set field names in printed Archivo caps and field values in stamped Martian Mono.",
+      "Do put hard truths (what isn't shipped, what isn't shared) on a two-panel caution label: orange header, white message, 2px ink outline.",
+      "Do set etched headlines in condensed Archivo caps (width 62-72, weight 800) with tight leading (0.96-1).",
+      "Do keep motion to the stamp: the serial punch and the 2px plate press, with 160ms ease-out color changes. Honor reduced motion.",
+      "Do show real app screens inside an aluminum bezel (8px, 10px padding)."
+    ],
+    "donts": [
+      "Don't add brushing, emboss, bevel, metallic gradients, glow or glass to plates. Plates are flat printed aluminum.",
+      "Don't introduce a second action color, white-on-blue action lettering, or a blue gradient hero.",
+      "Don't use safety-orange for anything except a caution label's header panel.",
+      "Don't use icon-tile feature grids. Capabilities go in spec rows and spec sheets.",
+      "Don't use emoji or glyph icons. Icons are inline stroke SVGs (1.75 stroke, round caps) sized to the text.",
+      "Don't round plates beyond 4px or frames beyond 8px."
+    ]
+  }
+}

@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RouteCool: field service software you own a copy of</title>
+  <meta name="description" content="Dispatch, phones in the field, invoicing and payment tracking for HVAC, plumbing and home-service companies. Every company gets its own RouteCool: its own domain, its own database. $199/mo for up to 5 users.">
+  <link rel="canonical" href="https://www.routecool.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.routecool.com/">
+  <meta property="og:title" content="RouteCool: your own field service system">
+  <meta property="og:description" content="Your own domain, your own database, your storage at cost. $199/mo for up to 5 users.">
+  <meta property="og:image" content="https://www.routecool.com/assets/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#c9ccd1">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&family=Martian+Mono:wdth,wght@75..112.5,300..700&display=swap">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1.5"/><path d="m3.5 6 8.5 7 8.5-7"/></symbol>
+    <symbol id="i-warn" viewBox="0 0 24 24"><path d="M12 3.5 22 20.5H2z"/><path d="M12 10v5"/><path d="M12 17.6v.01"/></symbol>
+    <symbol id="i-bug" viewBox="0 0 24 24"><rect x="7" y="8" width="10" height="12" rx="5"/><path d="M9.5 8a2.5 2.5 0 0 1 5 0"/><path d="M12 12v8M3 13h4M17 13h4M4 7l3 2.5M20 7l-3 2.5M4 19.5l3-2.5M20 19.5l-3-2.5"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15M13 6l6 6-6 6"/></symbol>
+  </svg>
+
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="strip">
+    <div class="strip__inner">
+      <a class="mark" href="/" aria-label="RouteCool home">
+        <img src="/favicon.svg" alt="" width="32" height="32">
+        <span>RouteCool</span>
+      </a>
+      <nav aria-label="Main">
+        <a href="#own">Your own copy</a>
+        <a href="#app">The app</a>
+        <a href="#rate">Pricing</a>
+        <a href="#installed">Kappa Air</a>
+      </nav>
+      <a class="anod anod--sm js-demo" href="mailto:demo@routecool.com?subject=RouteCool%20demo">
+        <svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg>
+        <span>Email for a demo</span>
+      </a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- First viewport: the nameplate -->
+    <section class="cabinet" aria-labelledby="hero-title">
+      <div class="plate plate--hero">
+        <span class="rivet rivet--tl"></span><span class="rivet rivet--tr"></span>
+        <span class="rivet rivet--bl"></span><span class="rivet rivet--br"></span>
+
+        <div class="plate__band">
+          <span class="etch-mark">ROUTECOOL</span>
+          <span class="etch-small">Field service management system</span>
+        </div>
+
+        <div class="hero">
+          <div class="hero__copy">
+            <h1 id="hero-title" class="etch"><span>Your own RouteCool.</span> <span>Your own domain.</span> <span>Your own database.</span></h1>
+            <p class="lede">Dispatch, phones in the field, invoicing and payment tracking for HVAC, plumbing and home-service companies. Every company runs its own copy, so your records never sit in a pile with anyone else's, and you pay for your own storage at cost.</p>
+            <div class="caution caution--hero" role="note">
+              <p class="caution__head"><svg class="ico ico--warn" aria-hidden="true"><use href="#i-warn"/></svg>Caution</p>
+              <p class="caution__msg">No shared database. No storage markup.</p>
+            </div>
+          </div>
+
+          <div class="hero__spec">
+            <dl class="spec">
+              <div class="spec__row"><dt>Model no.</dt><dd>RC-FSM</dd></div>
+              <div class="spec__row spec__row--serial">
+                <dt><label for="stamp">Serial / domain</label></dt>
+                <dd>
+                  <div class="serial" aria-hidden="true"><span class="serial__name js-serial">yourcompany</span><span class="serial__tld">.routecool.com</span></div>
+                  <div class="stamp-field">
+                    <input id="stamp" class="stamp-input" type="text" inputmode="text" autocomplete="organization" spellcheck="false" maxlength="40" placeholder="Type your company name">
+                  </div>
+                  <p class="sr-only" aria-live="polite" id="serial-live">Your address would be yourcompany.routecool.com</p>
+                </dd>
+              </div>
+              <div class="spec__row"><dt>Database</dt><dd>PostgreSQL, yours alone</dd></div>
+              <div class="spec__row"><dt>Backups</dt><dd>Your own, kept apart</dd></div>
+              <div class="spec__row"><dt>Rated</dt><dd><b>5</b> users</dd></div>
+              <div class="spec__row spec__row--rate"><dt>Rate</dt><dd><b>$199</b> / mo</dd></div>
+              <div class="spec__row"><dt>Hosting</dt><dd>At cost, typically $10–30/mo</dd></div>
+            </dl>
+
+            <a class="anod js-demo" href="mailto:demo@routecool.com?subject=RouteCool%20demo">
+              <svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg>
+              <span>Email <b>demo@routecool.com</b></span>
+            </a>
+            <p class="anod-note">It goes straight to the person who builds RouteCool.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- The app at work -->
+    <section id="app" class="section section--app" aria-labelledby="app-title">
+      <div class="wrap">
+        <div class="tag-head">
+          <h2 id="app-title" class="etch etch--section">The office sees the whole day. The tech sees their next stop.</h2>
+          <p class="section-lede">These are real RouteCool screens, showing a demo company and made-up customers.</p>
+        </div>
+
+        <figure class="board">
+          <div class="board__frame">
+            <img src="/assets/dispatch-board.webp" width="2400" height="1428" alt="RouteCool dispatch board: technicians in rows, color-coded appointment blocks across a 7 AM to 3 PM timeline, a column of unscheduled work on the left, and a Phoenix-area map with pins in each technician's color on the right." loading="eager" decoding="async">
+            <ol class="callouts" aria-label="What's on the dispatch board">
+              <li style="--x:13%;--y:52%"><span class="callout__pin">1</span><span class="callout__text">Unscheduled work waits here. Drag a card onto a tech.</span></li>
+              <li style="--x:47%;--y:40%"><span class="callout__pin">2</span><span class="callout__text">Drag to retime in 15-minute steps. Pull the edge to stretch it.</span></li>
+              <li style="--x:30%;--y:78%"><span class="callout__pin">3</span><span class="callout__text">Techs in rows, or flip to columns.</span></li>
+              <li style="--x:83%;--y:62%"><span class="callout__pin">4</span><span class="callout__text">Pins in each tech's color, so you can fill a gap with a call near their route.</span></li>
+            </ol>
+          </div>
+          <figcaption><span class="label">Fig. 1</span> Dispatch board, office view</figcaption>
+        </figure>
+
+        <div class="field">
+          <figure class="phone">
+            <img src="/assets/my-day.webp" width="780" height="1688" alt="RouteCool My Day on a phone: today's calls numbered in visit order with times and addresses, finished ones marked Completed, and the next call showing a big orange En Route button." loading="lazy" decoding="async">
+            <figcaption><span class="label">Fig. 2</span> My Day, tech's phone</figcaption>
+          </figure>
+          <div class="field__copy">
+            <h3 class="etch etch--sub">Built for the phone in the truck</h3>
+            <ul class="ticks">
+              <li>Today's calls in visit order, with a map link for each address.</li>
+              <li>One tap moves a call along: En Route, On Site, Completed.</li>
+              <li>The tech builds the invoice at the house. They type two words of the price book, tap the item, and adjust the quantity.</li>
+              <li>Photos with labels, checklists, clock in and out, and notes you can dictate.</li>
+              <li>The tech only sees My Day. Prices, settings and the office screens stay with the office.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wiring diagram: your own instance -->
+    <section id="own" class="section section--own" aria-labelledby="own-title">
+      <div class="wrap own">
+        <div class="own__copy">
+          <h2 id="own-title" class="etch etch--section">One company per RouteCool. Nobody shares.</h2>
+          <p class="section-lede">Most field-service software puts every customer in one big database and prices it to cover everybody. RouteCool gives each company its own copy.</p>
+
+          <div class="reasons">
+            <div class="reason">
+              <h3>Your data stays in its own database</h3>
+              <p>Every job, invoice, photo and note lives in a database that belongs to your company alone, with backups of its own. Nobody else's records are ever mixed in with yours.</p>
+            </div>
+            <div class="reason">
+              <h3>You pay for your own storage, at cost</h3>
+              <p>Photos pile up. A shared system has to price for everyone's pile, including the older customers who pay less, so newer customers get overcharged. With RouteCool, your hosting and storage bill is your own: typically $10–30 a month, paid at cost.</p>
+            </div>
+            <div class="reason">
+              <h3>Your accounts, your keys</h3>
+              <p>Google Maps, Stripe, Twilio and email connect with your own accounts. When card payments and texting go live, the fees are whatever those companies charge you. We don't add anything on top.</p>
+            </div>
+          </div>
+        </div>
+
+        <figure class="wiring" aria-labelledby="wiring-cap">
+          <div class="wiring__plate">
+            <p class="wiring__title">Wiring diagram <span>one company</span></p>
+            <ol class="wiring__chain">
+              <li class="term term--domain">
+                <span class="term__code">L1</span>
+                <span class="term__name">Your domain</span>
+                <span class="term__val js-domain">yourcompany.routecool.com</span>
+              </li>
+              <li class="term term--app">
+                <span class="term__code">L2</span>
+                <span class="term__name">Your RouteCool</span>
+                <span class="term__val">Its own app, its own updates</span>
+              </li>
+              <li class="term-group">
+                <ul>
+                  <li class="term">
+                    <span class="term__code">DB</span>
+                    <span class="term__name">Your database</span>
+                    <span class="term__val">PostgreSQL · its own backups</span>
+                  </li>
+                  <li class="term">
+                    <span class="term__code">ST</span>
+                    <span class="term__name">Your storage</span>
+                    <span class="term__val">Photos and files, billed at cost</span>
+                  </li>
+                  <li class="term">
+                    <span class="term__code">K</span>
+                    <span class="term__name">Your keys</span>
+                    <span class="term__val">Maps · Stripe · Twilio · email</span>
+                  </li>
+                </ul>
+              </li>
+            </ol>
+          </div>
+          <figcaption id="wiring-cap"><span class="label">Fig. 3</span> Each company gets its own domain, app, database and storage.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Spec sheet -->
+    <section class="section section--specs" aria-labelledby="specs-title">
+      <div class="wrap">
+        <div class="tag-head">
+          <h2 id="specs-title" class="etch etch--section">Spec sheet</h2>
+          <p class="section-lede">Everything below ships today and is included in the rate.</p>
+        </div>
+
+        <div class="sheet">
+          <section class="sheet__group" aria-labelledby="g-office">
+            <h3 id="g-office">Office</h3>
+            <dl>
+              <div><dt>Dispatch board</dt><dd>Techs in rows or columns, drag to retime or reassign, and the day's map beside it.</dd></div>
+              <div><dt>Map back-fill</dt><dd>Drop every unscheduled call on the map and fill a gap near a tech's route.</dd></div>
+              <div><dt>Workflow board</dt><dd>Open work by stage (Report Needed, Parts Ordered, Ready to Schedule) with cards you drag between columns.</dd></div>
+              <div><dt>Crews</dt><dd>A lead plus helpers, with the pay split set per job type.</dd></div>
+              <div><dt>Search</dt><dd>Search by job number, address, or any person's name, phone or email, using two or more words at once.</dd></div>
+            </dl>
+          </section>
+
+          <section class="sheet__group" aria-labelledby="g-money">
+            <h3 id="g-money">Money</h3>
+            <dl>
+              <div><dt>Price book</dt><dd>Categories, plan-tier prices and CSV import. Raise a whole group of prices with a preview, and undo it in one click.</dd></div>
+              <div><dt>Upsells</dt><dd>Recommendations are marked Offered, Accepted or Declined. Accepted work bills itself.</dd></div>
+              <div><dt>Proposals</dt><dd>Good, Better, Best options, side by side.</dd></div>
+              <div><dt>Receivables</dt><dd>Aging buckets (current, 1–30, 31–60, 61–90 and 90+ days) and an overdue list that keeps itself current.</dd></div>
+              <div><dt>Payments</dt><dd>Search by payer, invoice or check number, so you can answer "whose check is this?" fast.</dd></div>
+            </dl>
+          </section>
+
+          <section class="sheet__group" aria-labelledby="g-warranty">
+            <h3 id="g-warranty">Warranty &amp; financing</h3>
+            <dl>
+              <div><dt>Claims</dt><dd>The warranty company and claim number are kept on the job.</dd></div>
+              <div><dt>Split billing</dt><dd>One visit can have several invoices, like one to the warranty company and one to the resident.</dd></div>
+              <div><dt>Repayment</dt><dd>Financed jobs sit in their own status, invoiced monthly.</dd></div>
+              <div><dt>Maintenance plans</dt><dd>Plan members get their own prices, with alerts when a visit is due.</dd></div>
+            </dl>
+          </section>
+
+          <section class="sheet__group" aria-labelledby="g-records">
+            <h3 id="g-records">Records</h3>
+            <dl>
+              <div><dt>History</dt><dd>Every change on a job is recorded: what it was, what it became, who changed it and when.</dd></div>
+              <div><dt>Links</dt><dd>Every screen and popup has its own link. Paste it and a coworker sees exactly what you see.</dd></div>
+              <div><dt>Your brand</dt><dd>Your logo and name on the sign-in page and in the browser tab.</dd></div>
+              <div><dt>Feedback</dt><dd>Anyone can tap <svg class="ico ico--inline" aria-hidden="true"><use href="#i-bug"/></svg> on any screen. It sends a screenshot to the builder, and the answer comes back in the app.</dd></div>
+            </dl>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- Rating plate: pricing -->
+    <section id="rate" class="section section--rate" aria-labelledby="rate-title">
+      <div class="wrap">
+        <div class="plate plate--rate">
+          <span class="rivet rivet--tl"></span><span class="rivet rivet--tr"></span>
+          <span class="rivet rivet--bl"></span><span class="rivet rivet--br"></span>
+          <div class="plate__band">
+            <span class="etch-mark">RATING</span>
+            <span class="etch-small">One company · one RouteCool</span>
+          </div>
+          <div class="rate">
+            <div class="rate__price">
+              <h2 id="rate-title" class="sr-only">Pricing</h2>
+              <p class="rate__num"><span class="rate__cur">$</span>199</p>
+              <p class="rate__unit">per month · up to 5 users</p>
+            </div>
+            <dl class="spec spec--rate">
+              <div class="spec__row"><dt>Includes</dt><dd>Everything in the spec sheet</dd></div>
+              <div class="spec__row"><dt>Your domain</dt><dd class="js-domain">yourcompany.routecool.com</dd></div>
+              <div class="spec__row"><dt>Hosting</dt><dd>Paid to your provider at cost, typically $10–30 / mo</dd></div>
+              <div class="spec__row"><dt>Card &amp; text fees</dt><dd>Your own Stripe and Twilio accounts, no markup</dd></div>
+              <div class="spec__row"><dt>More users</dt><dd>Ask us</dd></div>
+            </dl>
+          </div>
+          <p class="rate__compare">Typical field-service suites run about $500 a month for five users.</p>
+          <a class="anod js-demo" href="mailto:demo@routecool.com?subject=RouteCool%20demo">
+            <svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg>
+            <span>Email for a demo</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Installed at -->
+    <section id="installed" class="section section--installed" aria-labelledby="installed-title">
+      <div class="wrap installed">
+        <div class="tagplate">
+          <span class="rivet rivet--sm rivet--l"></span><span class="rivet rivet--sm rivet--r"></span>
+          <p class="tagplate__name">Kappa Air</p>
+          <p class="tagplate__meta">Phoenix-area HVAC</p>
+          <p class="tagplate__serial"><span>Installed</span> kappaair.routecool.com</p>
+        </div>
+        <div class="installed__copy">
+          <h2 id="installed-title" class="etch etch--section">Built alongside a real HVAC shop</h2>
+          <p>RouteCool is built with Kappa Air, a Phoenix-area HVAC company that runs its dispatch, warranty work and invoicing on it every day. They have their own domain and their own database, the same setup you'd get. Their 196-item price book is what shaped the invoice builder.</p>
+          <p>When something's off, a Kappa Air tech taps the bug button. The report lands with the person who writes the code, and the answer shows up back in their app. Your company gets the same line.</p>
+          <a class="textlink" href="https://kappaair.routecool.com/" rel="noopener">See Kappa Air's own sign-in page <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service bulletin: honest roadmap -->
+    <section class="section section--bulletin" aria-labelledby="bulletin-title">
+      <div class="wrap">
+        <div class="caution caution--bulletin">
+          <h2 id="bulletin-title" class="caution__head"><svg class="ico ico--warn" aria-hidden="true"><use href="#i-warn"/></svg>Service bulletin: not in the box yet</h2>
+          <div class="caution__msg">
+            <ul>
+              <li>Text and email updates to customers</li>
+              <li>Card payments and pay-by-link</li>
+              <li>QuickBooks sync</li>
+            </ul>
+            <p>These are in progress now. Ask where they stand when you email.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Close -->
+    <section class="section section--close" aria-labelledby="close-title">
+      <div class="wrap">
+        <div class="plate plate--close">
+          <span class="rivet rivet--tl"></span><span class="rivet rivet--tr"></span>
+          <span class="rivet rivet--bl"></span><span class="rivet rivet--br"></span>
+          <h2 id="close-title" class="etch">Get your own RouteCool.</h2>
+          <p class="close__domain"><span class="js-domain">yourcompany.routecool.com</span></p>
+          <a class="anod anod--lg js-demo" href="mailto:demo@routecool.com?subject=RouteCool%20demo">
+            <svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg>
+            <span>Email <b>demo@routecool.com</b></span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot__inner">
+      <span class="mark mark--foot"><img src="/favicon.svg" alt="" width="24" height="24"><span>RouteCool</span></span>
+      <span>Field service management for HVAC, plumbing and home service.</span>
+      <a href="mailto:demo@routecool.com">demo@routecool.com</a>
+      <span>© 2026 RouteCool</span>
+    </div>
+  </footer>
+
+  <script src="/main.js" defer></script>
+</body>
+</html>

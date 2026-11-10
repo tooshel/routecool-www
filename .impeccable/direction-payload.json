@@ -1,0 +1,130 @@
+{
+  "title": "Choose the visual world for www.routecool.com",
+  "question": "The roll assigned the Street Atlas. Keep it, take an alternate, or re-roll.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Street Atlas",
+      "kicker": "THE ROLL",
+      "lineage": "Spiral-bound metro street atlases that lived on the dash of every service truck before GPS",
+      "thesis": "Every company gets its own page in the book: its own domain, database and backups, mapped like a street atlas.",
+      "palette": ["#f2dc6b", "#ffffff", "#e2452b", "#0ea5e9", "#8fc47e", "#141414"],
+      "materials": ["map-yellow urban fill", "white street grid", "freeway red-orange", "page-number boxes and A–H / 1–8 grid margins"],
+      "viewport": "A full-bleed atlas page of a square-mile street grid, with a tech's day drawn as one sky-blue route through stops 1–6, the headline set as the page title and a legend box holding $199/mo · 5 users · demo@routecool.com.",
+      "risk": "Can tip into a novelty map theme if the grid, page numbers and index aren't doing real wayfinding work.",
+      "raised": [
+        {"from": "challenger-neon", "raise": "The day's route is one continuous line that threads every page, never chopped into decorative bits."},
+        {"from": "challenger-teletext", "raise": "Every page carries a direct address (page + grid) and every cross-reference is a real link, like the app's every-screen-is-a-URL."},
+        {"from": "challenger-menagerie", "raise": "Sky blue is reserved for the live route and the action; nothing else wears it."},
+        {"from": "challenger-ligneclaire", "raise": "One unvarying line weight across map, icons and UI; no shadows, no gradients."},
+        {"from": "challenger-ink", "raise": "Newest is darkest: the leg ahead is full ink, completed legs drop to tint."}
+      ]
+    },
+    {
+      "id": "model-pick",
+      "label": "Equipment Data Plate",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "The riveted nameplate on every condenser and furnace that a tech reads on every call",
+      "thesis": "Your RouteCool stamped like the nameplate on your own unit: model, serial, your domain, your database.",
+      "palette": ["#c9ccd1", "#111214", "#f26a1b", "#0ea5e9", "#f4f4f2"],
+      "materials": ["brushed aluminum", "stamped and etched type", "rivets", "spec-table rules"],
+      "viewport": "One big nameplate fills the screen: MODEL RouteCool · SERIAL kappaair.routecool.com · RATED 5 users · $199/mo, with the dispatch board beneath it.",
+      "risk": "The most familiar HVAC-industrial move; metal texture can turn skeuomorphic and heavy."
+    },
+    {
+      "id": "challenger-airport",
+      "label": "Terminal Wayfinding",
+      "verdict": "competitive",
+      "lineage": "International airport yellow sign bands",
+      "thesis": "Each section is a decision point with one clear arrow: your data, this way.",
+      "palette": ["#ffd200", "#111111", "#ffffff", "#0ea5e9"],
+      "materials": ["saturated yellow panels", "white pictograms on black", "monumental numbers"],
+      "viewport": "A yellow overhead band: Your own database, Your own domain, $199/mo up to 5 users, with numbers at gate scale.",
+      "case": "Holds product clarity (very legible) but HVAC owners don't identify with airports the way they do with the truck's map book.",
+      "risk": "Generic signage pastiche if the band system isn't strict.",
+      "hero": "https://impeccable.style/worlds/cards/wayfinding-cartography-signage-terminal-yellow-wayfinding-hero.webp"
+    },
+    {
+      "id": "challenger-teletext",
+      "label": "Teletext Service",
+      "verdict": "declined",
+      "lineage": "Broadcast teletext magazines",
+      "thesis": "The product as numbered broadcast pages.",
+      "palette": ["#000000", "#ffff00", "#00ffff", "#ff0000"],
+      "materials": ["block mosaic", "40x24 grid"],
+      "viewport": "P100 index with features as numbered pages.",
+      "case": "Loses both axes: retro-tech novelty, far from the trades.",
+      "kept": "Every page has a direct address, so the atlas uses page + grid references as real links.",
+      "risk": "Retro novelty.",
+      "hero": "https://impeccable.style/worlds/cards/broadcast-programming-teletext-service-hero.webp"
+    },
+    {
+      "id": "challenger-neon",
+      "label": "Hand-bent Neon Circuit",
+      "verdict": "declined",
+      "lineage": "Neon sign fabrication",
+      "thesis": "One continuous lit stroke.",
+      "palette": ["#0b0b12", "#3a5bff", "#e0402a"],
+      "materials": ["glass tube", "gas glow"],
+      "viewport": "The wordmark as one lit tube.",
+      "case": "Loses both: dark glow reads nightlife, not field service.",
+      "kept": "One continuous line: the route threads every page unbroken.",
+      "risk": "Nightlife cliché.",
+      "hero": "https://impeccable.style/worlds/cards/magnetism-electricity-plasma-hand-bent-neon-circuit-hero.webp"
+    },
+    {
+      "id": "challenger-menagerie",
+      "label": "Crank Paper Menagerie",
+      "verdict": "declined",
+      "lineage": "Paper automata",
+      "thesis": "A procession of folding figures.",
+      "palette": ["#c8a878", "#ffffff", "#b3242b"],
+      "materials": ["kraft board", "cut paper"],
+      "viewport": "Figures marching across a crank line.",
+      "case": "Loses both: whimsical, unrelated to dispatch.",
+      "kept": "One color reserved for what's in motion: sky blue only on the live route and the action.",
+      "risk": "Whimsy.",
+      "hero": "https://impeccable.style/worlds/cards/kinetic-sculpture-automata-crank-paper-menagerie-hero.webp"
+    },
+    {
+      "id": "challenger-ligneclaire",
+      "label": "Ligne Claire Album",
+      "verdict": "declined",
+      "lineage": "Brussels clear-line comics",
+      "thesis": "Everything drawn in one even line.",
+      "palette": ["#2d6fb5", "#e8c37a", "#d43a2f", "#111111"],
+      "materials": ["flat fills", "even black line"],
+      "viewport": "A comic tier of a tech's day.",
+      "case": "Loses both: charming, but comics undercut a $199/mo business tool.",
+      "kept": "One unvarying line weight everywhere; flat fills, no shading.",
+      "risk": "Cute.",
+      "hero": "https://impeccable.style/worlds/cards/pop-culture-shelf-ligne-claire-album-hero.webp"
+    },
+    {
+      "id": "challenger-ink",
+      "label": "Suminagashi Ink Basin",
+      "verdict": "declined",
+      "lineage": "Japanese ink marbling",
+      "thesis": "The page as a fluid surface.",
+      "palette": ["#f7f7f5", "#26307a", "#2b2b2b"],
+      "materials": ["ink on water"],
+      "viewport": "A WebGL ink basin.",
+      "case": "Loses both: meditative art piece, zero trade identity.",
+      "kept": "Newest is darkest: the leg ahead is full ink, finished legs fade.",
+      "risk": "Art-gallery detachment.",
+      "hero": "https://impeccable.style/worlds/cards/medium-native-fluid-ink-basin-hero.webp"
+    }
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "buildPath": {"value": "code", "toggle": false},
+  "canon": true,
+  "canonCard": {
+    "label": "The category standard",
+    "thesis": "A clean SaaS landing page in RouteCool sky blue, executed impeccably.",
+    "palette": ["#ffffff", "#18181b", "#0ea5e9", "#0284c7"],
+    "materials": ["clean grid", "product screenshots", "pricing table"],
+    "viewport": "Headline + demo button on the left, the dispatch board screenshot on the right, feature grid and pricing below.",
+    "risk": "Looks like every other field-service suite by design."
+  },
+  "steer": true
+}
