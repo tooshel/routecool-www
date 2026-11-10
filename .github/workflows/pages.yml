@@ -21,16 +21,16 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       # Publish only the site itself, not the notes, design files or image sidecars.
       - name: Collect site files
         run: |
           mkdir -p _site/assets
           cp index.html styles.css main.js favicon.svg favicon.ico apple-touch-icon.png robots.txt CNAME _site/
           cp assets/*.webp assets/*.jpg _site/assets/
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: _site
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
