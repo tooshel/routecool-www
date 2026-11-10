@@ -30,8 +30,10 @@ artifact, so README, PRODUCT.md, DESIGN.md, `.impeccable/` and the image
 sidecars stay in the repo but aren't served. If you add a new site file, add it to the
 copy step too.
 
-DNS is in Cloudflare and set to **DNS only** (grey cloud) so GitHub can issue the
-certificate:
+DNS is in Cloudflare with both records **proxied** (orange cloud). Cloudflare
+serves HTTPS with its own certificate (zone SSL mode "Full", Always Use HTTPS
+on) and fetches from GitHub. GitHub's own certificate request sat at "new" for
+over an hour, so the site doesn't use it.
 
 - `www` → CNAME `tooshel.github.io`
 - `routecool.com` → A 185.199.108.153 / .109 / .110 / .111.153 (GitHub
